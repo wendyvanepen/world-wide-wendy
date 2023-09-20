@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'groovyWendy';
+		src: local('Groovy Wendy'), local('groovy-wendy'), url('/fonts/groovy-wendy.ttf');
+		font-weight: bold;
+		font-display: swap;
+	}
+}
