@@ -63,7 +63,7 @@
 					</ul>
 				</div>
 				<hr class="mb-10 xl:m-8 border-b-4 border-indigo-500" />
-				<span class="block font-normal text-gray-500 sm:text-center"
+				<span class="block text-gray-500 sm:text-center"
 					>© 2023 Wendy van Epen | Icons by <a href="https://icons8.com/">Icons8</a> | Website made
 					with
 					<a href="https://svelte.dev/">Svelte</a>

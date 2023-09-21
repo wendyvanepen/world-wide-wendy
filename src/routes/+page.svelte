@@ -11,7 +11,7 @@
 			Sports enthusiast
 		</h2>
 
-		<p class="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-10">
+		<p class="  text-gray-500 text-sm md:text-md xl:text-lg mb-10">
 			From surfing the web to surfing waves, I love taking on a new challenge. I turned to
 			freelancing in september 2023 and I'm here to help you build the accessible digital product of
 			your dreams.
@@ -27,12 +27,12 @@
 
 		<hr class="text-gray-500 mb-5" />
 
-		<span class="font-normal text-gray-500 text-sm"
+		<span class="text-gray-500 text-sm"
 			>Update september 2023: <b>not available for projects</b></span
 		>
 	</div>
 
 	<div class="mx-auto lg:mx-0">
-		<img class="w-2/5 ml-10" src="/Wendy.png" alt="Nice to meet you! I'm Wendy" />
+		<img class="w-2/5 ml-10" src="pictures/Wendy.png" alt="Nice to meet you! I'm Wendy" />
 	</div>
 </main>

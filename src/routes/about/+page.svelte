@@ -26,7 +26,7 @@
 	</div>
 </div>
 
-<p class="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-10">
+<p class="  text-gray-500 text-sm md:text-md xl:text-lg mb-10">
 	From surfing the web to surfing waves, I love taking on a new challenge. I turned to freelancing
 	in september 2023 and I'm here to help you build the accessible digital product of your dreams.
 </p>
