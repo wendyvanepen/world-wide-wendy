@@ -1,40 +1,172 @@
-<div class="flex items-center justify-center mb-10 gap-10 lg:space-around">
-	<div class="self-start">
-		<p class="font-medium text-indigo-700 text-xl">Get to know me</p>
-		<span class="w-10 h-0.5 bg-indigo-700" />
-		<h2 class="font-bold text-gray-800 text-3xl md:text-4xl xl:text-5xl mb-10">
-			Front-end developer <br />
-			Accessibility expert <br />
-		</h2>
+<script>
+	import Hr from '../../components/Hr.svelte';
+</script>
+
+<div class="mx-auto w-4/5 flex">
+	<div class="w-2/3 p-8">
+		<div class="text-left">
+			<img src="pictures/surfing.jpg" alt="Me surfing" />
+		</div>
 	</div>
 
-	<div class="self-start">
-		<div class="flex items-center justify-center lg:justify-start">
-			<p class="font-medium text-indigo-700 text-xl">Stack in a nutshell</p>
-			<span class="w-10 h-0.5 bg-indigo-700" />
+	<div class="w-1/3 p-8">
+		<Hr />
+		<p class="font-medium text-aubergine text-xl">Skills in a nutshell</p>
+		<Hr />
+		<div class="text-left">
+			<h3 class="font-bold text-aubergine-dark text-xl md:text-2xl xl:text-3xl mb-10">
+				<ul>
+					<li>React.js</li>
+					<li>TypeScript</li>
+					<li>Next.js</li>
+					<li>Surfing</li>
+					<li>Snowboarding</li>
+					<li>Traveling</li>
+					<li>...having fun</li>
+				</ul>
+			</h3>
 		</div>
-
-		<h3 class="font-bold text-gray-800 text-xl md:text-2xl xl:text-3xl mb-10">
-			<ul>
-				<li>React</li>
-				<li>TypeScript</li>
-				<li>Next</li>
-				<li>GraphQL</li>
-				<li>...and many more</li>
-			</ul>
-		</h3>
 	</div>
 </div>
 
-<p class="  text-gray-500 text-sm md:text-md xl:text-lg mb-10">
-	From surfing the web to surfing waves, I love taking on a new challenge. I turned to freelancing
-	in september 2023 and I'm here to help you build the accessible digital product of your dreams.
-</p>
+<div class="mx-auto w-4/5">
+	<p class="text-aubergine-dark font-medium md:text-md xl:text-lg mb-10">
+		From a young age, I was always interested in computers and the internet. I started building
+		websites when I was around 11 years old. I used to stay up late, focusing on the issues I would
+		encounter while building my dream websites. Up until today, I still experience the same focus
+		that makes me forget the hours and keep me glued to my screen. When I had to choose a study, I
+		wasn't ready to embrace my nerdy side yet. I chose to pursue a career within sports management
+		instead.
+	</p>
 
-<div class="space-y-5 lg:space-x-5 mb-10">
-	<a
-		href="/contact"
-		class="block md:inline px-8 py-3 font-medium bg-indigo-800 text-white text-lg rounded-md hover:bg-indigo-600 transition ease-in-out duration-300"
-		>Contact me</a
-	>
+	<div class="flex items-center self-center mb-10 lg:mb-0">
+		<img
+			width="24"
+			height="24"
+			src="https://img.icons8.com/material-outlined/24/laptop.png"
+			alt="laptop"
+		/>
+	</div>
+
+	<div class="flex text-aubergine-dark">
+		<div class="w-2/3 pr-4 mb-10">
+			<div class="font-bold text-xl">Pursuing a career in tech</div>
+			<Hr />
+			<br />
+			<p>
+				Fast forwarding to 2017, I decided that a master's degree in Marketing wouldn't still my
+				hunger for and signed up for a sped-up bachelor course software engineering. While the
+				switch wasn't an easy one, my passion for coding and building websites was still there.
+			</p>
+			<br />
+			<p>
+				At the moment with over 5 years of developing in the pocket, I'm putting on different hats
+				in the front-end world and expanding my knowledge where I can. I have a great sense of
+				detail, a strong feeling for customer journeys and I can spot a misplaced pixel from a mile
+				away. With the world becoming more aware of what inclusive means, I feel I can make a
+				difference in encouraging people to do the same in the digital world.
+			</p>
+		</div>
+		<div class="w-2/5">
+			<!-- Image that wraps to the right -->
+			<img src="pictures/miw.jpg" alt="Me in class" class="w-full h-auto rounded" />
+		</div>
+	</div>
+	<div class="flex mt-8">
+		<div class="w-2/5 pr-4 mb-8">
+			<!-- Image that wraps to the right -->
+			<img src="pictures/thailand.jpg" alt="Traveling Thailand" class="w-full h-auto rounded" />
+		</div>
+		<div class="w-2/3 pr-4">
+			<div class="font-bold text-xl">Combining traveling</div>
+			<Hr />
+			<br />
+
+			<p class="text-xl font-medium mb-4">
+				In 2016 I temporarily moved to the Swiss mountains to teach snowboarding.
+			</p>
+			<p>
+				It gave me the first real taste of traveling and living alone and it was love at first
+				sight. A few months after my stay I booked a solo trip to Morocco. With multiple world trips
+				in my pocked a new desire showed up: what if I combined my passion for traveling and work?
+				The pandemic has taught us the endless possibilities of working remote. But as an extravert,
+				I find it hard to keep connected to my team while traveling full-time.
+			</p>
+			<br />
+			<p>
+				So what's my solution? Well to be quite honest, I haven't got one. I'm still figuring out
+				the perfect balance. But for now, I try to escape the Dutch winter and travel to a warmer
+				place for a few months. I have great friends and family that I can't miss full-time, but who
+				knows what I'll decide on next year?
+			</p>
+		</div>
+	</div>
+
+	<div class="flex mt-8 mb-20">
+		<div class="w-2/3 pr-4">
+			<div class="font-bold text-xl flex gap-2">
+				<img
+					width="30"
+					height="30"
+					src="https://img.icons8.com/material-outlined/30/laptop.png"
+					alt="laptop"
+				/>
+				+
+				<img
+					width="30"
+					height="30"
+					src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/32/external-surfing-board-adventure-kmg-design-basic-outline-kmg-design.png"
+					alt="external-surfing-board-adventure-kmg-design-basic-outline-kmg-design"
+				/>
+				+
+				<img
+					width="30"
+					height="30"
+					src="https://img.icons8.com/material-outlined/30/world.png"
+					alt="world"
+				/>
+				=
+				<img
+					width="30"
+					height="30"
+					src="https://img.icons8.com/material-outlined/30/happy--v1.png"
+					alt="happy--v1"
+				/>
+			</div>
+			<Hr />
+			<br />
+			<p class="text-xl font-medium">And then there was surfing.</p>
+			<br />
+			<p>
+				I'm not a talented gal, as in - I've never been the type of girl to pick up a sport right
+				away and be great. But no matter how many times I got wiped out and smashed mercilessly on
+				the beach, for some reason I couldn't stop trying. Am I any good now? Not really. It's
+				simply a love I can't stop chasing.
+			</p>
+			<br />
+			<p>
+				So what's my solution? Well to be quite honest, I haven't got one. I'm still figuring out
+				the perfect balance. But for now, I try to escape the Dutch winter and travel to a warmer
+				place for a few months. I have great friends and family that I can't miss full-time, but who
+				knows what I'll decide on next year?
+			</p>
+		</div>
+		<div class="w-2/5 pr-4">
+			<img src="pictures/baby.jpg" alt="My baby - a surfboard" class="w-full h-auto rounded" />
+		</div>
+	</div>
+	<div class="text-xl">
+		Thanks for reading, and nice to meet you. How I'm combining surfing the web and waves? That was
+		the reason for me to start... <Hr />
+		<span class="font-bold text-aubergine text-xl flex gap-1 align-middle"
+			>...World Wide Wendy. <img
+				width="30"
+				height="30"
+				src="https://img.icons8.com/material-outlined/30/happy--v1.png"
+				alt="happy--v1"
+			/></span
+		>
+	</div>
+
+	<img class="mt-8 rounded" src="pictures/surf2.png" alt="surfing portugal" />
 </div>

@@ -1,0 +1,153 @@
+{
+	"intro": "Passionate, energetic, cheerful, eager-to-learn front-end developer who enjoys taking the lead. I excel when I can be technically involved in shaping the very best customer experiences from A to Z. I have specialized in digital accessibility and am skilled in implementing WCAG guidelines.",
+	"infoTitle": "Personal Information",
+	"info": {
+		"dateOfBirth": "Date of Birth: 23-05-1993",
+		"nationality": "Nationality: Dutch",
+		"license": "Driver's License: B",
+		"hobbies": "Hobbies: Surfing, snowboarding, traveling the world, fitness"
+	},
+	"skillsTitle": "Skills",
+	"educationTitle": "Education",
+	"education": [
+		{
+			"id": "1",
+			"school": "Amsterdam University of Applied Sciences, Bachelor Software Engineering",
+			"date": "September 2018 – December 2019",
+			"description": "Intensive 1-year retraining program that shortened the 4-year bachelor's program to one year."
+		},
+		{
+			"id": "2",
+			"school": "Amsterdam University of Applied Sciences, Bachelor Sports, Management & Business",
+			"date": "September 2010 – December 2014",
+			"description": "Minor Cross Cultural Business Skills. Member of the education committee and secretary of the activities committee."
+		}
+	],
+	"courseTitle": "Courses",
+	"courses": [
+		{
+			"id": "1",
+			"title": "W3C-WAI Certificate for Web Accessibility, edX",
+			"date": "January 2022",
+			"description": ""
+		},
+		{
+			"id": "2",
+			"title": "User Experience (UX), BCS Foundation",
+			"date": "September 2021",
+			"description": ""
+		},
+		{
+			"id": "3",
+			"title": "Advanced Bloomreach CMS, Bloomreach",
+			"date": "September 2018 - December 2018",
+			"description": ""
+		}
+	],
+	"items": [
+		{
+			"id": 1,
+			"title": "React.JS developer at GrandVision N.V., Amsterdam Schiphol",
+			"logo": {
+				"src": "/logos/GV.jpeg",
+				"alt": "GrandVision"
+			},
+			"startYear": "2021",
+			"startMonth": "February",
+			"endYear": "2023",
+			"endMonth": "August",
+			"description": "React.JS developer on the global multichannel CXCD platform, active in 40+ countries. The project consisted of 6 fully self-steering, international operational agile/scrum teams with a total of more than 60 developers.",
+			"tasks": [
+				{
+					"id": "1",
+					"description": "Collaborated intensively with the head of design and the UX team (7 designers) to improve accessibility and customer experience and optimize our way of working across disciplines."
+				},
+				{
+					"id": "2",
+					"description": "Weekly deployment through CI/CD and scripting of the entire platform to the test environments, both on our core project and for the 12+ countries where the platform was live."
+				},
+				{
+					"id": "3",
+					"description": "Led the internal accessibility project to become WCAG-compliant for all countries, shared knowledge through customized workshops, and aligned with the latest global guidelines."
+				},
+				{
+					"id": "4",
+					"description": "Responsible for the complete migration of our domain to Next.JS."
+				},
+				{
+					"id": "5",
+					"description": "Shared a lot of knowledge through a bi-weekly community meetup, both with the design team and the front-end team."
+				}
+			],
+			"skills": "React.JS, TypeScript, SASS, Storybook, REST, Next.JS, WCAG, Redux, GraphQL, Git, Jira",
+			"technologies": "Auth0, Commercetools, Bloomreach CMS, CloudFlare, Terraform, Algolia, Azure"
+		},
+		{
+			"id": 2,
+			"title": "React.JS developer at KPN, Rotterdam",
+			"logo": {
+				"src": "/logos/kpn.jpeg",
+				"alt": "KPN"
+			},
+			"startYear": "2019",
+			"startMonth": "January",
+			"endYear": "2021",
+			"endMonth": "February",
+			"description": "Greenfield corporate project MobileConnect. Combined UX/front-end role. Very small team with only 1 other back-ender and front-ender. Worked with Spring Boot in the first year and took on the UX/front-end role after a year.",
+			"tasks": [
+				{
+					"id": "1",
+					"description": "Intensive collaboration with UX/UI designer, requiring daily design reviews and close cooperation. Responsible for technical implementation and execution."
+				},
+				{
+					"id": "2",
+					"description": "Deployed the application to test, acceptance, and production environments through CI/CD."
+				},
+				{
+					"id": "3",
+					"description": "Planned, executed, and was fully responsible for achieving full WCAG 2.1 (accessibility) compliance."
+				}
+			],
+			"skills": "React.JS, TypeScript, Redux, SASS, REST, Spring Boot, Java, Cypress.io, WCAG, Jira, Git",
+			"technologies": "Auth0, AWS S3"
+		},
+		{
+			"id": 3,
+			"title": "Front-end developer/consultant at Incentro, Amsterdam",
+			"logo": {
+				"src": "/logos/incentro.png",
+				"alt": "Incentro"
+			},
+			"startYear": "2018",
+			"startMonth": "September",
+			"endYear": "2023",
+			"endMonth": "August",
+			"description": "Working for major clients (KPN, GrandVision) as a front-end developer consultant. I have never had a month in which I was not billable.",
+			"tasks": [
+				{
+					"id": "1",
+					"description": "Represented Incentro as an accessibility expert and developed a new set of commercial products as a new proposition. Negotiated and helped new and existing customers achieve their accessibility goals through workshops, sales presentations, and customized products."
+				},
+				{
+					"id": "2",
+					"description": "Field manager, managed and guided colleagues to achieve personal and company-related goals."
+				},
+				{
+					"id": "3",
+					"description": "Actively involved in organizing our front-end community and conducting knowledge sharing within the branch."
+				}
+			],
+			"skills": "React.JS, TypeScript, SASS, REST, Spring Boot, Java, Cypress.io, WCAG, Jira, Git",
+			"technologies": "Auth0, AWS S3"
+		},
+		{
+			"id": 4,
+			"title": "Assistant Manager at Tomaz, Amsterdam",
+			"startYear": "2014",
+			"startMonth": "October",
+			"endYear": "2018",
+			"endMonth": "February",
+			"description": "Employed at a busy international restaurant in the heart of Amsterdam. I was responsible for the daily supervision of the team, resolving (ad-hoc) issues, and ensuring the smooth execution of tasks throughout the day."
+		}
+	]
+}

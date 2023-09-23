@@ -1,0 +1,154 @@
+{
+	"intro": "Gepassioneerde, energieke, vrolijke, leergierige front-end ontwikkelaar die graag de kar trekt. Ik kom het beste tot mijn recht wanneer ik technisch betrokken mag zijn bij het vormgeven van de allerbeste klantbelevingen van A-Z. Ik heb me gespecialiseerd in digitale toegankelijkheid en beschik over het implementeren van de WCAG richtlijnen.",
+	"infoTitle": "Persoonlijke gegevens",
+	"info": {
+		"dateOfBirth": "Geboortedatum: 23-05-1993",
+		"nationality": "Nationaliteit: Nederlands",
+		"license": "Rijbewijs: B",
+		"hobbies": "Hobbies: Surfen, snowboarden, de wereld rondreizen, fitness"
+	},
+	"skillsTitle": "Vaardigheden",
+	"educationTitle": "Opleidingen",
+	"education": [
+		{
+			"id": "1",
+			"school": "Amsterdam University of Applied Sciences, Bachelor Software Engineering",
+			"date": "september 2018 – december 2019",
+			"description": "Intensief 1-jarig omscholingsprogramma dat de 4-jarige bacheloropleiding verkort tot een jaar."
+		},
+		{
+			"id": "2",
+			"school": "Amsterdam University of Applied Sciences, Bachelor Sports, Management & Business",
+			"date": "september 2010 – december 2014",
+			"description": "Minor Cross Cultural Business Skills. Lid van de onderwijscommissie en secretaris van de activiteitencommissie."
+		}
+	],
+	"courseTitle": "Cursussen",
+	"courses": [
+		{
+			"id": "1",
+			"title": "W3C-WAI Certificate for Web Accessibility, edX",
+			"date": "januari 2022",
+			"description": ""
+		},
+		{
+			"id": "2",
+			"title": "User Experience (UX), BCS Foundation",
+			"date": "september 2021",
+			"description": ""
+		},
+		{
+			"id": "3",
+			"title": "Advanced Bloomreach CMS, Bloomreach",
+			"date": "september 2018 - december 2018",
+			"description": ""
+		}
+	],
+	"items": [
+		{
+			"id": 1,
+
+			"title": "React.JS developer bij GrandVision N.V., Amsterdam Schiphol",
+			"logo": {
+				"src": "/logos/GV.jpeg",
+				"alt": "GrandVision"
+			},
+			"startYear": "2021",
+			"startMonth": "February",
+			"endYear": "2023",
+			"endMonth": "August",
+			"description": "React.JS ontwikkelaar op het wereldwijde multichannel CXCD-platform, actief in 40+ landen. Het project bestond uit 6 volledig zelfsturende, internationale operationele agile/scrum teams met in totaal meer dan 60 ontwikkelaars.",
+			"tasks": [
+				{
+					"id": "1",
+					"description": "Intensief samengewerkt met de head of design en het UX-team (7 ontwerpers) om de toegankelijkheid en klantbeleving te verbeteren en onze manier van werken tussen disciplines te optimaliseren"
+				},
+				{
+					"id": "2",
+					"description": "Wekelijks deployen middels CI/CD en scripting van het gehele platform naar de test omgevingen, op zowel ons core project als voor de 12+ landen waarin het platform live was."
+				},
+				{
+					"id": "3",
+					"description": "Leidinggeven aan het interne toegankelijkheidsproject om WCAG-conform te worden voor alle landen, kennis gedeeld via op maat gemaakte workshops en afstemming gehouden met de nieuwste wereldwijde richtlijnen."
+				},
+				{
+					"id": "4",
+					"description": "Verantwoordelijk voor de volledige migratie van ons domein naar Next.JS."
+				},
+				{
+					"id": "5",
+					"description": "Veel kennisdeling middels een bi-weekly community meetup, zowel met het design team als met de front-end."
+				}
+			],
+			"skills": "React.JS, TypeScript, SASS, Storybook, REST, Next.JS, WCAG, Redux, GraphQL, Git, Jira",
+			"technologies": "Auth0, Commercetools, Bloomreach CMS, CloudFlare, Terraform, Algolia, Azure"
+		},
+		{
+			"id": 2,
+			"title": "React.JS developer bij KPN, Rotterdam",
+			"logo": {
+				"src": "/logos/kpn.jpeg",
+				"alt": "KPN"
+			},
+			"startYear": "2019",
+			"startMonth": "January",
+			"endYear": "2021",
+			"endMonth": "February",
+			"description": "Greenfield bedrijfsproject MobileConnect. Gecombineerde UX/front-end rol. Zeer klein team met slechts 1 andere back-ender en front-ender. Eerste jaar met Spring Boot gewerkt en actief geweest binnen de back-end, na een jaar de UX/front-end rol opgepakt.",
+			"tasks": [
+				{
+					"id": "1",
+					"description": "Intensieve samenwerking met UX/UI designer waarbij dagelijkse ontwerpbeoordelingen en nauwe samenwerking noodzakelijk waren. Verantwoordelijk voor de technische implementatie en uitvoering."
+				},
+				{
+					"id": "2",
+					"description": "Deployen van de applicatie naar zowel test, acceptatie als productie middels CI/CD."
+				},
+				{
+					"id": "3",
+					"description": "Plannen, uitvoeren en volledig verantwoordelijk voor het bereiken van volledige WCAG 2.1 (toegankelijkheid) conformiteit."
+				}
+			],
+			"skills": "React.JS, TypeScript, Redux, SASS, REST, Spring Boot, Java, Cypress.io, WCAG, Jira, Git",
+			"technologies": "Auth0, AWS S3"
+		},
+		{
+			"id": 3,
+			"title": "Front-end developer/consultant bij Incentro, Amsterdam",
+			"logo": {
+				"src": "/logos/incentro.png",
+				"alt": "Incentro"
+			},
+			"startYear": "2018",
+			"startMonth": "September",
+			"endYear": "2023",
+			"endMonth": "Augustus",
+			"description": "Werkzaam voor grote klanten (KPN, GrandVision) als front-end ontwikkelaar consultant. Ik heb nog nooit een maand gehad waarin ik niet factureerbaar was.",
+			"tasks": [
+				{
+					"id": "1",
+					"description": "Vertegenwoordigde Incentro als toegankelijkheidsexpert en stelde een nieuwe set van commerciële producten op als nieuwe propositie. Onderhandelde en hielp nieuwe en bestaande klanten bij het bereiken van hun toegankelijkheidsdoelen via workshops, verkooppresentaties en op maat gemaakte producten."
+				},
+				{
+					"id": "2",
+					"description": "Field manager, collegas gemanaged en begeleid om persoonlijke en bedrijfsgerelateerde doelen te bereiken."
+				},
+				{
+					"id": "3",
+					"description": "Actief betrokken bij de organisatie van onze front-end community en het uitvoeren van kennisdeling binnen de vestiging."
+				}
+			],
+			"skills": "React.JS, TypeScript, SASS, REST, Spring Boot, Java, Cypress.io, WCAG, Jira, Git",
+			"technologies": "Auth0, AWS S3"
+		},
+		{
+			"id": 4,
+			"title": "Assistent-manager bij Tomaz, Amsterdam",
+			"startYear": "2014",
+			"startMonth": "Oktober",
+			"endYear": "2018",
+			"endMonth": "Februari",
+			"description": "Werkzaam bij een drukbezocht internationaal restaurant in hartje Amsterdam. Ik was verantwoordelijk voor de dagelijkse aansturing van het team, oplossen van (ad-hoc) problemen en het naadloos laten verlopen van de taken gedurende de dag."
+		}
+	]
+}

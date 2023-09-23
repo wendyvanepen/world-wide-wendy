@@ -1,6 +1,8 @@
 <script>
+	import Hr from '../../components/Hr.svelte';
+
 	let resultMessage = '';
-	let resultColor = 'text-gray-500';
+	let resultColor = 'text-aubergine-dark';
 
 	async function handleSubmit(event) {
 		event.preventDefault();
@@ -49,14 +51,16 @@
 </script>
 
 <div class="flex items-center justify-center gap-2 mb-10">
-	<span class="w-10 h-0.5 bg-indigo-700" />
-	<p class="font-medium text-indigo-700 text-xl">Contact me</p>
+	<Hr />
+	<h2 class="font-medium text-aubergine text-xl">Let's get in touch</h2>
+	<Hr />
 </div>
 
 <div class="max-w-xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
 	<div class="text-center">
-		<h1 class="my-3 text-3xl font-semibold text-gray-700">Contact Us</h1>
-		<p class="text-gray-400">Fill up the form below to send us a message.</p>
+		<p class="text-aubergine-dark">
+			Don't hesitate to reach out! I'd love to get in touch. I usually reply within one day.
+		</p>
 	</div>
 	<div class="m-7">
 		<form action="https://api.web3forms.com/submit" method="POST" on:submit={handleSubmit}>
@@ -66,63 +70,63 @@
 
 			<div class="flex mb-6 space-x-4">
 				<div class="w-full md:w-1/2">
-					<label for="fname" class="block mb-2 text-sm text-gray-600">First Name</label>
+					<label for="fname" class="block mb-2 text-sm text-aubergine-dark">First Name</label>
 					<input
 						type="text"
 						name="name"
 						id="first_name"
 						placeholder="John"
 						required
-						class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+						class="w-full px-3 py-2 placeholder-aubergine border border-aubergine rounded-md focus:outline-none focus:ring focus:aubergine focus:border-blue-300"
 					/>
 				</div>
 				<div class="w-full md:w-1/2">
-					<label for="lname" class="block mb-2 text-sm text-gray-600">Last Name</label>
+					<label for="lname" class="block mb-2 text-sm text-aubergine-dark">Last Name</label>
 					<input
 						type="text"
 						name="last_name"
 						id="lname"
 						placeholder="Doe"
 						required
-						class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300-900-500"
+						class="w-full px-3 py-2 placeholder-aubergine border border-aubergine rounded-md focus:outline-none focus:ring focus:aubergine focus:border-blue-300-900-500"
 					/>
 				</div>
 			</div>
 
 			<div class="flex mb-6 space-x-4">
 				<div class="w-full md:w-1/2">
-					<label for="email" class="block mb-2 text-sm text-gray-600">Email Address</label>
+					<label for="email" class="block mb-2 text-sm text-aubergine-dark">Email Address</label>
 					<input
 						type="email"
 						name="email"
 						id="email"
 						placeholder="you@company.com"
 						required
-						class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300-900-500"
+						class="w-full px-3 py-2 placeholder-aubergine border border-aubergine rounded-md focus:outline-none focus:ring focus:aubergine focus:border-blue-300-900-500"
 					/>
 				</div>
 
 				<div class="w-full md:w-1/2">
-					<label for="phone" class="block text-sm mb-2 text-gray-600">Phone Number</label>
+					<label for="phone" class="block text-sm mb-2 text-aubergine-dark">Phone Number</label>
 					<input
 						type="text"
 						name="phone"
 						id="phone"
 						placeholder="+1 (555) 1234-567"
 						required
-						class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300-900-500"
+						class="w-full px-3 py-2 placeholder-aubergine border border-aubergine rounded-md focus:outline-none focus:ring focus:aubergine focus:border-blue-300-900-500"
 					/>
 				</div>
 			</div>
 
 			<div class="mb-6">
-				<label for="message" class="block mb-2 text-sm text-gray-600">Your Message</label>
+				<label for="message" class="block mb-2 text-sm text-aubergine-dark">Your Message</label>
 				<textarea
 					rows="5"
 					name="message"
 					id="message"
 					placeholder="Your Message"
-					class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300-900-500"
+					class="w-full px-3 py-2 placeholder-aubergine border border-aubergine rounded-md focus:outline-none focus:ring focus:aubergine focus:border-blue-300-900-500"
 					required
 				/>
 			</div>
@@ -130,7 +134,7 @@
 			<div class="mb-6">
 				<button
 					type="submit"
-					class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none"
+					class="w-full px-3 py-4 text-white bg-aubergine rounded-md focus:bg-aubergine focus:outline-none"
 				>
 					Send Message
 				</button>
