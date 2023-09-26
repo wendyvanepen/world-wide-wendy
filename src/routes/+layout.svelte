@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	export const prerender = true;
 </script>
 
 <section class="py-16">
@@ -9,13 +10,11 @@
 		>
 			<div class="flex items-center mb-10 lg:mb-0">
 				<img
-					class="mr-4"
-					width="32"
-					height="32"
+					class="mr-4 w-[32] h-[32]"
 					src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/32/external-surfing-board-adventure-kmg-design-basic-outline-kmg-design.png"
 					alt="external-surfing-board-adventure-kmg-design-basic-outline-kmg-design"
 				/>
-				<h1 class="font-bold font-groovyWendy text-6xl"><a href="/">Wendy van Epen</a></h1>
+				<h1><a href="/">Wendy van Epen</a></h1>
 			</div>
 
 			<ul class="lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20 mb-10 xl:mb-0">
@@ -35,7 +34,7 @@
 
 		<footer class="m-4">
 			<div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-				<div class="sm:flex sm:items-center sm:justify-between flex items-center mb-4 sm:mb-0">
+				<div class="items-center mb-4 lg:flex lg:items-center lg:justify-between">
 					<div>
 						<span class="self-center text-4xl font-groovyWendy whitespace-nowrap"
 							>World Wide Wendy<br />
@@ -43,7 +42,7 @@
 						<span>Kvk: 91187850</span>
 					</div>
 					<ul
-						class="flex flex-wrap items-center mb-6 gap-4 space-around text-sm font-medium sm:mb-0 dark:text-gray-400"
+						class="flex flex-wrap items-center mb-6 gap-4 space-around text-sm font-medium md:my-4 dark:text-gray-400"
 					>
 						<li>
 							<a
@@ -65,12 +64,33 @@
 					</ul>
 				</div>
 				<hr class="mb-10 xl:m-8 border-b-4 border-midnight" />
-				<span class="block text-gray-500 sm:text-center"
-					>© 2023 Wendy van Epen | Icons by <a href="https://icons8.com/">Icons8</a> | Website made
-					with
-					<a href="https://svelte.dev/">Svelte</a>
-					and <a href="https://tailwindcss.com/">TailwindCSS</a></span
-				>
+
+				<div class="flex flex-col-reverse justify-between pt-1 pb-10 lg:flex-row">
+					<p class="text-sm text-gray-600">© Wendy van Epen 2024</p>
+					<ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+						<li>
+							<a
+								href="https://icons8.com/"
+								class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+								>Icons by Icons8</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://svelte.dev/"
+								class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+								>Made with SvelteKit</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://tailwindcss.com/"
+								class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+								>TailwindCSS</a
+							>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</footer>
 	</div>

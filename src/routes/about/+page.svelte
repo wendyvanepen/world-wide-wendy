@@ -2,14 +2,14 @@
 	import Hr from '../../components/Hr.svelte';
 </script>
 
-<div class="mx-auto w-4/5 flex">
-	<div class="w-2/3 p-8">
+<div class="mx-auto w-4/5 flex flex-col sm:w-[90%]">
+	<div class="w-2/3 p-8 sm:w-[100%]">
 		<div class="text-left">
 			<img src="pictures/surfing.jpg" alt="Me surfing" />
 		</div>
 	</div>
 
-	<div class="w-1/3 p-8">
+	<div class="w-1/3 p-8 sm:w-max">
 		<Hr />
 		<p class="font-medium text-aubergine text-xl">Skills in a nutshell</p>
 		<Hr />
@@ -29,7 +29,7 @@
 	</div>
 </div>
 
-<div class="mx-auto w-4/5">
+<div class="mx-auto w-3/5">
 	<p class="text-aubergine-dark font-medium md:text-md xl:text-lg mb-10">
 		From a young age, I was always interested in computers and the internet. I started building
 		websites when I was around 11 years old. I used to stay up late, focusing on the issues I would
@@ -39,18 +39,16 @@
 		instead.
 	</p>
 
-	<div class="flex items-center self-center mb-10 lg:mb-0">
-		<img
-			width="24"
-			height="24"
-			src="https://img.icons8.com/material-outlined/24/laptop.png"
-			alt="laptop"
-		/>
-	</div>
-
-	<div class="flex text-aubergine-dark">
-		<div class="w-2/3 pr-4 mb-10">
-			<div class="font-bold text-xl">Pursuing a career in tech</div>
+	<div class="text-aubergine-dark">
+		<div class="mb-10">
+			<img src="pictures/miw.jpg" alt="Me in class" class="w-full h-auto rounded mb-4" />
+			<div class="flex font-bold text-xl">
+				<img
+					class="w-[24] h-[24] mr-2"
+					src="https://img.icons8.com/material-outlined/24/laptop.png"
+					alt="laptop"
+				/> Pursuing a career in tech
+			</div>
 			<Hr />
 			<br />
 			<p>
@@ -67,93 +65,85 @@
 				difference in encouraging people to do the same in the digital world.
 			</p>
 		</div>
-		<div class="w-2/5">
-			<!-- Image that wraps to the right -->
-			<img src="pictures/miw.jpg" alt="Me in class" class="w-full h-auto rounded" />
-		</div>
+		<div />
 	</div>
-	<div class="flex mt-8">
-		<div class="w-2/5 pr-4 mb-8">
-			<!-- Image that wraps to the right -->
-			<img src="pictures/thailand.jpg" alt="Traveling Thailand" class="w-full h-auto rounded" />
-		</div>
-		<div class="w-2/3 pr-4">
-			<div class="font-bold text-xl">Combining traveling</div>
-			<Hr />
-			<br />
+	<div class="mb-8">
+		<img src="pictures/thailand.jpg" alt="Traveling Thailand" class="w-full h-auto rounded" />
+	</div>
+	<div>
+		<div class="font-bold text-xl">Combining traveling</div>
+		<Hr />
+		<br />
 
-			<p class="text-xl font-medium mb-4">
-				In 2016 I temporarily moved to the Swiss mountains to teach snowboarding.
-			</p>
-			<p>
-				It gave me the first real taste of traveling and living alone and it was love at first
-				sight. A few months after my stay I booked a solo trip to Morocco. With multiple world trips
-				in my pocked a new desire showed up: what if I combined my passion for traveling and work?
-				The pandemic has taught us the endless possibilities of working remote. But as an extravert,
-				I find it hard to keep connected to my team while traveling full-time.
-			</p>
-			<br />
-			<p>
-				So what's my solution? Well to be quite honest, I haven't got one. I'm still figuring out
-				the perfect balance. But for now, I try to escape the Dutch winter and travel to a warmer
-				place for a few months. I have great friends and family that I can't miss full-time, but who
-				knows what I'll decide on next year?
-			</p>
-		</div>
+		<p class="text-xl font-medium mb-4">
+			In 2016 I temporarily moved to the Swiss mountains to teach snowboarding.
+		</p>
+		<p>
+			It gave me the first real taste of traveling and living alone and it was love at first sight.
+			A few months after my stay I booked a solo trip to Morocco. With multiple world trips in my
+			pocked a new desire showed up: what if I combined my passion for traveling and work? The
+			pandemic has taught us the endless possibilities of working remote. But as an extravert, I
+			find it hard to keep connected to my team while traveling full-time.
+		</p>
+		<br />
+		<p>
+			So what's my solution? Well to be quite honest, I haven't got one. I'm still figuring out the
+			perfect balance. But for now, I try to escape the Dutch winter and travel to a warmer place
+			for a few months. I have great friends and family that I can't miss full-time, but who knows
+			what I'll decide on next year?
+		</p>
 	</div>
 
-	<div class="flex mt-8 mb-20">
-		<div class="w-2/3 pr-4">
-			<div class="font-bold text-xl flex gap-2">
-				<img
-					width="30"
-					height="30"
-					src="https://img.icons8.com/material-outlined/30/laptop.png"
-					alt="laptop"
-				/>
-				+
-				<img
-					width="30"
-					height="30"
-					src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/32/external-surfing-board-adventure-kmg-design-basic-outline-kmg-design.png"
-					alt="external-surfing-board-adventure-kmg-design-basic-outline-kmg-design"
-				/>
-				+
-				<img
-					width="30"
-					height="30"
-					src="https://img.icons8.com/material-outlined/30/world.png"
-					alt="world"
-				/>
-				=
-				<img
-					width="30"
-					height="30"
-					src="https://img.icons8.com/material-outlined/30/happy--v1.png"
-					alt="happy--v1"
-				/>
-			</div>
-			<Hr />
-			<br />
-			<p class="text-xl font-medium">And then there was surfing.</p>
-			<br />
-			<p>
-				I'm not a talented gal, as in - I've never been the type of girl to pick up a sport right
-				away and be great. But no matter how many times I got wiped out and smashed mercilessly on
-				the beach, for some reason I couldn't stop trying. Am I any good now? Not really. It's
-				simply a love I can't stop chasing.
-			</p>
-			<br />
-			<p>
-				So what's my solution? Well to be quite honest, I haven't got one. I'm still figuring out
-				the perfect balance. But for now, I try to escape the Dutch winter and travel to a warmer
-				place for a few months. I have great friends and family that I can't miss full-time, but who
-				knows what I'll decide on next year?
-			</p>
+	<div class="mb-8 mt-8">
+		<img src="pictures/baby.jpg" alt="My baby - a surfboard" class="w-full h-auto rounded" />
+
+		<div class="font-bold text-xl flex gap-2 mt-8">
+			<img
+				width="30"
+				height="30"
+				src="https://img.icons8.com/material-outlined/30/laptop.png"
+				alt="laptop"
+			/>
+			+
+			<img
+				width="30"
+				height="30"
+				src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/32/external-surfing-board-adventure-kmg-design-basic-outline-kmg-design.png"
+				alt="external-surfing-board-adventure-kmg-design-basic-outline-kmg-design"
+			/>
+			+
+			<img
+				width="30"
+				height="30"
+				src="https://img.icons8.com/material-outlined/30/world.png"
+				alt="world"
+			/>
+			=
+			<img
+				width="30"
+				height="30"
+				src="https://img.icons8.com/material-outlined/30/happy--v1.png"
+				alt="happy--v1"
+			/>
 		</div>
-		<div class="w-2/5 pr-4">
-			<img src="pictures/baby.jpg" alt="My baby - a surfboard" class="w-full h-auto rounded" />
-		</div>
+
+		<Hr />
+		<br />
+		<p class="text-xl font-medium">And then there was surfing.</p>
+		<br />
+		<p>
+			I'm not a talented gal, as in - I've never been the type of girl to pick up a sport right away
+			and be great. But no matter how many times I got wiped out and smashed mercilessly on the
+			beach, for some reason I couldn't stop trying. Am I any good now? Not really. It's simply a
+			love I can't stop chasing.
+		</p>
+		<br />
+		<p>
+			So what's my solution? Well to be quite honest, I haven't got one. I'm still figuring out the
+			perfect balance. But for now, I try to escape the Dutch winter and travel to a warmer place
+			for a few months. I have great friends and family that I can't miss full-time, but who knows
+			what I'll decide on next year?
+		</p>
 	</div>
 	<div class="text-xl">
 		Thanks for reading, and nice to meet you. How I'm combining surfing the web and waves? That was

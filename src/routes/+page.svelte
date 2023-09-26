@@ -3,11 +3,11 @@
 </script>
 
 <main>
-	<div class="flex flex-col lg:flex-row justify-center items-center lg:mb-20">
+	<div class="flex flex-col lg:flex-row justify-center items-center lg:my-20">
 		<div class="w-full lg:w-2/5 text-center lg:text-left mb-20 lg:mb-0">
 			<div class="flex items-center justify-center lg:justify-start gap-2 mb-10">
 				<Hr />
-				<h2 class="font-medium text-aubergine text-xl">Nice to meet you, I'm Wendy!</h2>
+				<h2>Nice to meet you, I'm Wendy!</h2>
 				<Hr />
 			</div>
 
@@ -27,7 +27,7 @@
 			<div class="space-y-5 lg:space-x-5 mb-10">
 				<a
 					href="/contact"
-					class="block md:inline px-8 py-3 font-medium bg-midnight text-white text-lg rounded-md hover:bg-midnight-light transition ease-in-out duration-300"
+					class="block md:inline px-8 py-3 font-medium bg-midnight text-white text-lg rounded-md hover:bg-midnight-light hover:text-black hover:no-underline transition ease-in-out duration-300"
 					>Contact me</a
 				>
 			</div>

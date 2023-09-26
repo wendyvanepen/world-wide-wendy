@@ -46,7 +46,7 @@
 <div>
 	<div class="flex justify-center items-center mb-8">
 		<Hr />
-		<h2 class="font-medium text-aubergine text-xl">Curriculum Vitae</h2>
+		<h2>Curriculum Vitae</h2>
 		<Hr />
 	</div>
 

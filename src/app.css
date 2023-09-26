@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 @layer base {
+	h1 {
+		@apply text-6xl font-bold font-groovyWendy hover:text-aubergine transition ease-in-out duration-300;
+	}
+	h2 {
+		@apply font-medium text-aubergine text-xl;
+	}
+	a {
+		@apply text-aubergine transition ease-in-out duration-500 hover:text-aubergine-dark hover:underline;
+	}
 	@font-face {
 		font-family: 'groovyWendy';
 		src: local('Groovy Wendy'), local('groovy-wendy'), url('/fonts/groovy-wendy.ttf');
@@ -19,6 +28,6 @@
 	}
 
 	.nav-item {
-		@apply font-medium text-gray-700 text-lg hover:text-gray-400 transition ease-in-out duration-300 mb-2 lg:mb-0;
+		@apply font-medium text-gray-700 text-lg mb-2 lg:mb-0;
 	}
 }

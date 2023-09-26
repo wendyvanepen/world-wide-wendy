@@ -52,7 +52,7 @@
 
 <div class="flex items-center justify-center gap-2 mb-10">
 	<Hr />
-	<h2 class="font-medium text-aubergine text-xl">Let's get in touch</h2>
+	<h2>Let's get in touch</h2>
 	<Hr />
 </div>
 
