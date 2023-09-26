@@ -1,6 +1,5 @@
 <script>
 	import '../app.css';
-	export const prerender = true;
 </script>
 
 <section class="py-16">
