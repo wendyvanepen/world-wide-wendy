@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import { base } from '$app/paths';
 </script>
 
 <section class="py-16">
@@ -13,18 +14,18 @@
 					src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/32/external-surfing-board-adventure-kmg-design-basic-outline-kmg-design.png"
 					alt="external-surfing-board-adventure-kmg-design-basic-outline-kmg-design"
 				/>
-				<h1><a href="/">Wendy van Epen</a></h1>
+				<h1><a href="{base}/">Wendy van Epen</a></h1>
 			</div>
 
 			<ul class="lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20 mb-10 xl:mb-0">
 				<li class="nav-item">
-					<a href="/about">Get to know me</a>
+					<a href="{base}/about">Get to know me</a>
 				</li>
 				<li class="nav-item">
-					<a href="/work">Work</a>
+					<a href="{base}/work">Work</a>
 				</li>
 				<li class="nav-item">
-					<a href="/contact">Let's get in touch</a>
+					<a href="{base}/contact">Let's get in touch</a>
 				</li>
 			</ul>
 		</nav>
@@ -47,17 +48,17 @@
 							<a
 								href="https://www.linkedin.com/in/wendy-van-epen-00bb9032/"
 								class="hover:grayscale mr-4 md:mr-6"
-								><img src="/icons/linkedIn.svg" alt="linkedIn" /></a
+								><img src="{base}/icons/linkedIn.svg" alt="linkedIn" /></a
 							>
 						</li>
 						<li>
 							<a href="https://www.facebook.com/wendy.vanepen/" class="hover:grayscale mr-4 md:mr-6"
-								><img src="/icons/facebook.svg" alt="facebook" /></a
+								><img src="{base}/icons/facebook.svg" alt="facebook" /></a
 							>
 						</li>
 						<li>
 							<a href="https://www.instagram.com/wendyvanepen/" class="hover:grayscale mr-4 md:mr-6"
-								><img src="/icons/instagram.svg" alt="instagram" /></a
+								><img src="{base}/icons/instagram.svg" alt="instagram" /></a
 							>
 						</li>
 					</ul>
@@ -69,7 +70,7 @@
 					<ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
 						<li>
 							<a
-								href="https://icons8.com/"
+								href="https:/{base}/icons8.com/"
 								class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
 								>Icons by Icons8</a
 							>

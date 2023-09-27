@@ -1,5 +1,6 @@
 <script>
 	import Hr from '../components/Hr.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <main>
@@ -26,7 +27,7 @@
 
 			<div class="space-y-5 lg:space-x-5 mb-10">
 				<a
-					href="/contact"
+					href="{base}/contact"
 					class="block md:inline px-8 py-3 font-medium bg-midnight text-white text-lg rounded-md hover:bg-midnight-light hover:text-black hover:no-underline transition ease-in-out duration-300"
 					>Contact me</a
 				>
@@ -40,7 +41,7 @@
 		</div>
 
 		<div class="w-1/3">
-			<img class="w-4/5 ml-10" src="pictures/Wendy.png" alt="Nice to meet you! I'm Wendy" />
+			<img class="w-4/5 ml-10" src="{base}/pictures/Wendy.png" alt="Nice to meet you! I'm Wendy" />
 		</div>
 	</div>
 </main>

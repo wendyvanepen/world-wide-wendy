@@ -2,7 +2,9 @@
 	import { onMount } from 'svelte';
 	import Hr from '../../components/Hr.svelte';
 	import Cv from './Cv.svelte';
+
 	import type { CvInfo } from '.';
+	import { base } from '$app/paths';
 
 	let cv: CvInfo = {
 		intro: '',
@@ -23,7 +25,7 @@
 	let selectedLanguage = 'en';
 
 	const fetchTranslations = async (lang: string) => {
-		const response = await fetch(`src/routes/work/translations/${lang}.json`);
+		const response = await fetch(`${base}src/routes/work/translations/${lang}.json`);
 		if (response.ok) {
 			let res = await response.json();
 			cv = res as CvInfo;
