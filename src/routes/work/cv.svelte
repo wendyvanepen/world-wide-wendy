@@ -11,7 +11,7 @@
 			<img src="pictures/main_cv.jpg" alt="Wendy" />
 		</div>
 		<p class="font-bold text-gray-700 text-lg">
-			Wendy van Epen <br />
+			Wendy van Epen<br />
 			Front-end developer
 		</p>
 		<hr class="w-48 h-1 my-3 bg-midnight" />
