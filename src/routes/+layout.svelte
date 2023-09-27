@@ -14,7 +14,7 @@
 					src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/32/external-surfing-board-adventure-kmg-design-basic-outline-kmg-design.png"
 					alt="external-surfing-board-adventure-kmg-design-basic-outline-kmg-design"
 				/>
-				<h1><a href="{base}/">test - Wendy van Epen</a></h1>
+				<h1><a href="{base}/">tst - Wendy van Epen</a></h1>
 			</div>
 
 			<ul class="lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20 mb-10 xl:mb-0">
