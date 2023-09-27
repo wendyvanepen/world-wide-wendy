@@ -27,5 +27,6 @@ export default {
 			}
 		}
 	},
-	plugins: []
+	plugins: [],
+	purge: ['./src/**/*.html', './src/**/*.js', './src/**/*.svelte']
 };
