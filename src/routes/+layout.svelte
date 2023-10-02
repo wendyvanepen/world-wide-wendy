@@ -12,17 +12,20 @@
 				<img
 					class="mr-4 w-[32] h-[32]"
 					src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/32/external-surfing-board-adventure-kmg-design-basic-outline-kmg-design.png"
-					alt="external-surfing-board-adventure-kmg-design-basic-outline-kmg-design"
+					alt=""
 				/>
 				<h1><a href="{base}/">tst - Wendy van Epen</a></h1>
 			</div>
 
-			<ul class="lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20 mb-10 xl:mb-0">
+			<ul class="flex flex-col mb-10 lg:flex-row lg:items-center lg:space-x-8 lg:my-6 xl:mb-0">
 				<li class="nav-item">
 					<a href="{base}/about">Get to know me</a>
 				</li>
 				<li class="nav-item">
-					<a href="{base}/work">Work</a>
+					<a href="{base}/services">Services</a>
+				</li>
+				<li class="nav-item">
+					<a href="{base}/work">CV</a>
 				</li>
 				<li class="nav-item">
 					<a href="{base}/contact">Let's get in touch</a>
@@ -33,7 +36,7 @@
 		<slot />
 
 		<footer class="m-4">
-			<div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+			<div class="w-full max-w-screen-xl mx-auto md:py-8">
 				<div class="items-center mb-4 lg:flex lg:items-center lg:justify-between">
 					<div>
 						<span class="self-center text-4xl font-groovyWendy whitespace-nowrap"

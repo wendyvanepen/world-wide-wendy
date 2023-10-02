@@ -4,10 +4,13 @@
 
 @layer base {
 	h1 {
-		@apply text-6xl font-bold font-groovyWendy hover:text-aubergine transition ease-in-out duration-300;
+		@apply text-4xl font-bold font-groovyWendy hover:text-aubergine transition ease-in-out duration-300 lg:text-6xl;
 	}
 	h2 {
-		@apply font-medium text-aubergine text-xl;
+		@apply text-lg font-medium text-aubergine lg:text-2xl;
+	}
+	h3 {
+		@apply font-bold leading-[2.5rem] text-aubergine-dark text-3xl md:text-4xl mb-8;
 	}
 	a {
 		@apply text-aubergine transition ease-in-out duration-500 hover:text-aubergine-dark hover:underline;
